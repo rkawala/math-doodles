@@ -1,3 +1,2 @@
 nose
-sphinx
 setuptools~=56.2.0
