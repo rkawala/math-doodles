@@ -2,8 +2,7 @@
 # -*- coding: utf-8 -*-
 #
 # Eli Maor's book says (on page 50) that pi can be approximated with a series:
-# 4 - (4 / 3) + (4 / 5) - (4 / 7) + (4 / 9) and so on. It takes tens of millions
-# of iterations before you even get to 3.1415926, but it works.
+# 4 - (4 / 3) + (4 / 5) - (4 / 7) + (4 / 9) and so on.
 
 
 def do_iterate(count):
@@ -16,4 +15,7 @@ def do_iterate(count):
 
 
 if __name__ == '__main__':
+    # It takes tens of millions of iterations before you even get to 3.1415926, but it works.
+    # So that the tests run fast, I only do those tens of millions of iterations when the code
+    # is run manually.
     print(do_iterate(25000000))
