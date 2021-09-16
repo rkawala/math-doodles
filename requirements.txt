@@ -1,2 +1,3 @@
 nose
+pytruth
 setuptools~=56.2.0
