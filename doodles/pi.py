@@ -1,4 +1,4 @@
-#!/usr/local/bin/python3
+#!/usr/bin/python3
 # -*- coding: utf-8 -*-
 #
 # Eli Maor's book says (on page 50) that pi can be approximated with a series:
