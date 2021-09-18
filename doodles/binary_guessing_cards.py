@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 #
 # My nephew showed me that there was a number guessing technique based on binary math. This code prints the cards
